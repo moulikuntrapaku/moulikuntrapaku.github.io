@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouli Kuntrapaku</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        form,h1,p{
+            padding-left: 50px;
+        }
+        ::placeholder{
+            padding-left: 10px;
+        }
+        form{
+            line-height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Mouli Kuntrapaku</div>
+        <ul class="navlinks">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Work.html">Work</a></li>
+            <li> <a href="./Contact.html">Contact</a></li> 
+        </ul>
+        <div class="burger"> 
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>  
+    <br><br><br>
+    <div id="content-contact">
+        <h1>Let's talk.</h1>
+        <br>
+        <p>Get in touch via the the form below or by emailing<a href="mailto:moulikuntrapaku@gmail.com?subject=Hello!" style="color:rgb(180, 74, 55);;"> moulikuntrapaku@gmail.com </a></p>
+        <br>
+        <form action="#">
+            <label for="name">Name:</label><br><br>
+            <input id="name-in-form" class="form1" type="text" name="name" placeholder="Enter your Name here"><br>
+            <label for="email">Email:</label><br><br>
+            <input id="email-in-form" class="form1" type="email" name="mail" placeholder="Enter your Email here"><br>
+            <label for="message">Message:</label><br><br>
+            <textarea id="message-in-form" class="form2" name="message" maxlength="5000" placeholder="Enter Your Message here"></textarea><br>
+            <input type="submit" onclick="savedata()" id="submit-button">
+        </form>
+    </div>
+    <script src="./app.js"></script>  
+</body>
+</html>
