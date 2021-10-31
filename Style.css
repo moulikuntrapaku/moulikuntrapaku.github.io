@@ -87,31 +87,8 @@ nav{
 }
 
 
-
-
-
-
-a:hover{
-    color: rgb(180, 74, 55);
-}
 #matter{
-    padding-left: 3%;
-}
-a img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    border: 5px solid rgb(36, 35, 35);
-}
-
-
-#content-contact{
-    padding-left: 40px;
+    padding-left: 2%;
 }
 span#ww{
     animation: colorchange 2s infinite;
